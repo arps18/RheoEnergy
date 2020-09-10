@@ -1,3 +1,4 @@
+// NavBar on Scroll
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll < 600) {
