@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+* {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
 .header {
     background: url("./images/hero_1.jpg") center center fixed;
     color: #FFF;
@@ -18,4 +22,18 @@ html {
     transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
+}
+
+
+/* .vertical {
+    border-left: 0.5px solid grey;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+} */
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 0%;
 }
