@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .header {
     background: url("./images/hero_1.jpg") center center fixed;
     color: #FFF;
@@ -8,4 +12,10 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     -msn-background-size: cover;
+}
+
+#primary-nav {
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
 }
