@@ -7,7 +7,7 @@ html {
 }
 
 .header {
-    background: url("./images/hero_1.jpg") center center fixed;
+    background: center center fixed;
     color: #FFF;
     height: 100vh;
     position: relative;
