@@ -10,6 +10,11 @@ html {
     color: white!important;
 }
 
+.navbar-nav>li {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .header {
     background: url("./images/hero_1.jpg") center center;
     color: #FFF;
