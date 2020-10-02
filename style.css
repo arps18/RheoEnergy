@@ -15,8 +15,14 @@ html {
     padding-right: 30px;
 }
 
+#title {
+    size: 5em;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .header {
-    background: url("./images/hero_1.jpg") center center;
+    background: url("./images/img_2.jpg") center center;
     color: #FFF;
     height: 100vh;
     position: relative;
