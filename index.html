@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 </head>
 
 <body>
@@ -18,27 +18,40 @@
     <section class="header">
         <div class="image"></div>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="primary-nav">
-            <a class="navbar-brand pl-4 ml-3" href="#" style="color: aliceblue;">RHEOS ENERGY</a>
+            <a class="navbar-brand pl-4 ml-3" href="#" style="color: blue;">RHEOS ENERGY</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link d-flex justify-content-center" href="#" style="color: white;">HOME <span
+                        <a class="nav-link d-flex justify-content-center" href="#" style="color: black;">HOME <span
                                     class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link d-flex justify-content-center" href="#" style="color: white;">SERVICES</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link d-flex justify-content-center" href="#" data-toggle="dropdown" style="color: black;">
+                            <div class="dropdown-toggle">SOLUTIONS</div>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right mt-2">
+
+                            <a href="#" class="dropdown-item ">Aerzen</a>
+                            <a href="#" class="dropdown-item">Aesseal</a>
+                            <a href="#" class="dropdown-item">Igema</a>
+                            <a href="#" class="dropdown-item">Sodimate</a>
+                            <a href="witzenmann.html" class="dropdown-item">Witzenmann</a>
+
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link d-flex justify-content-center" href="./about.html" style="color: white;">ABOUT</a>
+                        <a class="nav-link d-flex justify-content-center" href="./about.html" style="color: black;">ABOUT</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link d-flex justify-content-center" href="./manufacturers.html" data-toggle="dropdown" style="color: white;">
+                        <a class="nav-link d-flex justify-content-center" href="./manufacturers.html" data-toggle="dropdown" style="color: black;">
                             <div class="dropdown-toggle">MANUFACTURERS</div>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right mt-2">
+                            <a href="./manufacturers.html" class="dropdown-item ">All</a>
+                            <div class="dropdown-divider"></div>
                             <a href="#" class="dropdown-item ">Aerzen</a>
                             <a href="aesseal.html" class="dropdown-item">Aesseal</a>
                             <a href="#" class="dropdown-item">Igema</a>
@@ -49,7 +62,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link d-flex justify-content-center" href="./contact.html" style="color: white;">CONTACT</a>
+                        <a class="nav-link d-flex justify-content-center" href="./contact.html" style="color: black;">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -78,10 +91,10 @@
                             <hr>
                         </h3>
                         <div class="row">
-                            <div class="col-12 col-md-4">
+                            <div class="col-12 col-md-4 mt-4">
 
                                 <a href="">
-                                    <img class="card-img-top" src="./images/company/AerzenLogoLarge.webp" alt="Card image cap">
+                                    <img class="card-img-top pt-4" src="./images/company/AerzenLogoLarge.webp" alt="Card image cap">
                                 </a>
 
 
@@ -97,7 +110,7 @@
                             <div class="col-12 col-md-4">
 
                                 <a href="">
-                                    <img class="card-img-top" src="./images/c.png" alt="Card image cap">
+                                    <img class="card-img-top mt-4" src="./images/c.png" alt="Card image cap">
                                 </a>
 
 
@@ -140,11 +153,13 @@
                             </h5>
                         </p>
 
-                        <div class="btn btn-primary">
-                            <a href="./contact.html" style="color: white; text-decoration: none;">
-                                    Get Started
-                                </a>
-                        </div>
+                        <a href="./contact.html">
+                            <div class="btn btn-outline-primary">
+                                Get Started
+                            </div>
+
+                        </a>
+
                     </div>
                 </div>
             </div>
@@ -158,11 +173,12 @@
 
     <div class="container">
         <div class="more d-flex justify-content-center">
-            <h2 class="">
-                SERVING IN THE INDUSTRY FOR PAST 7 YEARS
-            </h2>
+            <h1 class="">
+                <b>SERVING IN THE INDUSTRY FOR PAST 7 YEARS</b>
+            </h1>
         </div>
 
+        <br>
         <br>
         <br>
         <!-- <div class="container">
@@ -211,16 +227,159 @@
         </div> -->
 
         <div class="container">
-            <h5>
-                Rheos Energy Solutions is a consolidated Indian company. We have a dynamic and independent partnership with globally renown brands like Aerzen, IGEMA Steam & Boiler and Sodimate for sales and supply range of products to meet the customer’s requirement
-                of engineering solutions and services, market and support related product and develop end-user solutions in partnership with various global manufacturers. <br><br> Rheos Energy operates in the Oil & Gas, Petrochemical and
-                Power-Generation industries through three different business Units. The company is located in the industrial area of western India and covers businesses of India in the Middle East, Africa, and South Asia. <br><br> Committed to the continuous
-                development and realization of solutions aimed at meeting increasingly demanding technical requirements, Rheos Energy has an ethical and responsible customer-driven business approach which is aimed at continuously providing the product
-                with highest performance and reliability and with a strong customer focus support as well. <br><br> The manufacturing activities are organized in three factories over a covered area of 80.000 sq. ft. a staff of over 25 people. All phases
-                of component manufacturing and parts engineering, including the process and mechanical design of it as well as manufacturing, testing, painting, and packing are carried out in-house. <br><br> We bring together, in whatever combination
-                is required, any of our product lines and service offerings. The result is a single, complete solution comprising custom engineering, equipment design, facility planning, construction, equipment commissioning and operation.
-            </h5>
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div class="box-part text-center">
+
+
+                        <i class="fas fa-gas-pump fa-3x"></i>
+                        <br>
+                        <br>
+                        <h4>
+                            Oil and Gas</h4>
+                    </div>
+
+
+
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="box-part text-center">
+
+                        <i class="fas fa-oil-can fa-3x" aria-hidden="true"></i>
+                        <br>
+                        <br>
+                        <h4>
+                            Petrochemical and Refinery</h4>
+                    </div>
+
+
+
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="box-part text-center">
+
+                        <i class="fas fa-prescription-bottle-alt fa-3x" aria-hidden="true"></i>
+                        <br>
+                        <br>
+                        <h4>
+                            Pharmaceutical</h4>
+                    </div>
+
+
+
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="box-part text-center">
+
+                        <i class="fas fa-tools fa-3x" aria-hidden="true"></i>
+                        <br>
+                        <br>
+                        <h4>
+                            Metals and Mining
+
+                        </h4>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div class="box-part text-center">
+
+                        <i class="fas fa-plane fa-3x" aria-hidden="true"></i>
+                        <br>
+                        <br>
+                        <h4>
+                            Aviation
+
+                        </h4>
+                    </div>
+
+
+
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="box-part text-center">
+
+                        <i class="fas fa-industry fa-3x" aria-hidden="true"></i>
+                        <br>
+                        <br>
+                        <h4>
+                            Power Plant
+
+                        </h4>
+                    </div>
+
+
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="box-part text-center">
+
+                        <i class="fas fa-tint fa-3x" aria-hidden="true"></i>
+                        <br>
+                        <br>
+                        <h4>
+                            Water Resources
+
+                        </h4>
+                    </div>
+
+
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="box-part text-center">
+
+                        <i class="fas fa-flask fa-3x" aria-hidden="true"></i>
+                        <br>
+                        <br>
+                        <h4>
+                            Chemical
+                        </h4>
+                    </div>
+
+
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div class="box-part text-center">
+
+                        <i class="fas fa-utensils fa-3x" aria-hidden="true"></i>
+                        <br>
+                        <br>
+                        <h4>
+                            Food
+                        </h4>
+                    </div>
+
+
+
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="box-part text-center">
+
+                        <i class="fas fa-tshirt fa-3x" aria-hidden="true"></i>
+                        <br>
+                        <br>
+                        <h4>
+                            Textile
+
+                        </h4>
+                    </div>
+
+
+
+                </div>
+
+            </div>
         </div>
+    </div>
     </div>
     <br>
     <br>
@@ -329,6 +488,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <script src="script.js"></script>
+
 </body>
 
 </html>
