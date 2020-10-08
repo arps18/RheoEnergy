@@ -21,6 +21,12 @@ html {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+@media (max-width: 992px) {
+    .navbar-collapse {
+        background-color: white;
+    }
+}
+
 .header {
     background: url("./images/img_2.jpg") center center;
     color: #FFF;
@@ -59,7 +65,7 @@ html {
 
 .google-maps {
     position: relative;
-    padding-bottom: 75%; // This is the aspect ratio
+    padding-bottom: 75%;
     height: 0;
     overflow: hidden;
 }
