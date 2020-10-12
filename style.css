@@ -21,6 +21,10 @@ html {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.card-img-top:hover {
+    border: 3px solid #1E90FF;
+}
+
 @media (max-width: 992px) {
     .navbar-collapse {
         background-color: white;
