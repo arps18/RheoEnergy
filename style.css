@@ -43,6 +43,18 @@ html {
     -msn-background-size: cover;
 }
 
+.headers {
+    background: url("./images/hero_1.jpg") center center;
+    color: #FFF;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -msn-background-size: cover;
+}
+
 .company-detail {
     font-size: 20px;
 }
@@ -52,14 +64,6 @@ html {
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
 }
-
-
-/* .vertical {
-    border-left: 0.5px solid grey;
-    height: 250px;
-    position: absolute;
-    left: 50%;
-} */
 
 .centered {
     position: absolute;
