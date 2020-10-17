@@ -6,6 +6,10 @@ html {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
+h1{
+    color: #0f3057;
+}
+
 #tag {
     color: white!important;
 }
@@ -17,7 +21,7 @@ html {
 
 #title {
     size: 5em;
-    color: black;
+    color: #0f3057;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
