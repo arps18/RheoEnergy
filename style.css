@@ -1,4 +1,4 @@
-html {
+body {
     scroll-behavior: smooth;
 }
 
@@ -12,6 +12,46 @@ h1 {
 
 #tag {
     color: white!important;
+}
+
+#button {
+    display: inline-block;
+    background-color: #1E90FF;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: #0f3057;
+}
+
+#button:active {
+    background-color: #0f3057;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
 }
 
 .navbar-nav>li {
@@ -48,7 +88,7 @@ h1 {
 }
 
 .headers {
-    background: url("./images/hero_1.jpg") center center;
+    background: url("images/hero_1.jpg") center center;
     color: #FFF;
     height: 100vh;
     position: relative;
