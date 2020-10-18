@@ -88,7 +88,7 @@ h1 {
 }
 
 .headers {
-    background: url("./images/hero_1.jpg") center center;
+    background: url("images/hero_1.jpg") center center;
     color: #FFF;
     height: 100vh;
     position: relative;
